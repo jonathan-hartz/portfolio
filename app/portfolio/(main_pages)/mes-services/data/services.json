@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Création de sites web sur mesure",
+    "description": "Je vous créer votre site web personnalisé qui tiendra compte de vos exigences, en utilisant les dernières technologies et tendances de design.",
+    "icon": "fa-solid fa-laptop-code",
+    "borderColor": "border-blue-400",
+    "fromColor": "from-blue-300",
+    "toColor": "to-blue-400"
+  },
+  {
+    "title": "Optimisation pour les moteurs de recherche (SEO)",
+    "description": "Je vous aide à améliorer votre visibilité en ligne en optimisant votre site web pour les moteurs de recherche, ce qui augmentera votre trafic et vos conversions.",
+    "icon": "fa-solid fa-magnifying-glass-dollar",
+    "borderColor": "border-amber-400",
+    "fromColor": "from-amber-300",
+    "toColor": "to-amber-400"
+  },
+  {
+    "title": "Développement de sites e-commerce",
+    "description": "Je développpe votre site e-commerce, ou je l'améliore. Je vous aide à tous les niveaux, y compris l’intégration de systèmes de paiement sécurisés, le checkout, et la gestion des stocks.",
+    "icon": "fa-solid fa-cart-shopping",
+    "borderColor": "border-teal-400",
+    "fromColor": "from-teal-300",
+    "toColor": "to-teal-400"
+  },
+  {
+    "title": "Accompagnement et support technique",
+    "description": "Je participe à la maintenance et au support technique pour assurer le bon fonctionnement de vos sites web, et résoudre rapidement les problèmes éventuels.",
+    "icon": "fa-solid fa-handshake-angle",
+    "borderColor": "border-indigo-400",
+    "fromColor": "from-indigo-300",
+    "toColor": "to-indigo-400"
+  },
+  {
+    "title": "Développement d’applications web",
+    "description": "Je créer vos applications web, interactives et performantes, qui peuvent améliorer l’expérience utilisateur et répondre à des besoins spécifiques.",
+    "icon": "fa-solid fa-code",
+    "borderColor": "border-fuchsia-400",
+    "fromColor": "from-fuchsia-300",
+    "toColor": "to-fuchsia-400"
+  },
+  {
+    "title": "Développements internes",
+    "description": "Je m'occupe de mettre en place des solutions techniques interne, comme par exemple des scripts de sauvegarde ou de synchronisation, mais également des solutions sur mesure.",
+    "icon": "fa-solid fa-ruler-combined",
+    "borderColor": "border-purple-400",
+    "fromColor": "from-purple-300",
+    "toColor": "to-purple-400"
+  },
+  {
+    "title": "Hébergement & Déploiement",
+    "description": "Je me charge de déployer vos solutions sur les plateformes adaptées à vos besoins, et je vous évite les interactions avec les prestataires de services",
+    "icon": "fa-solid fa-power-off",
+    "borderColor": "border-pink-400",
+    "fromColor": "from-pink-300",
+    "toColor": "to-pink-400"
+  }
+]

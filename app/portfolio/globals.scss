@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-next:before {
+  content: "\e800";
+  font-style: normal;
+}
+.icon-ts:before {
+  content: "\e801";
+  font-style: normal;
+}
+.icon-tailwind:before {
+  content: "\e802";
+  font-style: normal;
+}
+.icon-prestashop:before {
+  content: "\e803";
+  font-style: normal;
+}
+.icon-mysql:before {
+  content: "\e804";
+  font-style: normal;
+}
+.icon-mongodb:before {
+  content: "\e805";
+  font-style: normal;
+}
+
+.icon-prisma:before {
+  content: "\e808";
+  font-style: normal;
+}
+/* width */
+::-webkit-scrollbar {
+  @apply w-2 rounded-lg bg-indigo-500;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-indigo-800;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply rounded-lg bg-indigo-500;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-indigo-300;
+}
+
+.grecaptcha-badge {
+  visibility: hidden !important;
+}

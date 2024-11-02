@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "1",
+    "slug": "portfolio",
+    "hook": "Un outil pour me présenter",
+    "title": "Mon portfolio",
+    "imagePath": "portfolio.png",
+    "subtitle": "Préparé avec passion grâce à React, Next.js et Tailwind.",
+    "ready": true,
+    "public": true,
+    "categories": [
+      {
+        "title": "Site web sur mesure",
+        "color": "from-violet-600 to-violet-700 text-slate-200"
+      }
+    ],
+    "technologies_used": ["icon-next", "fa-brands fa-react", "icon-tailwind"],
+    "description": "Un projet passionant, et nécessaire pour vous présenter mes services, compétences et mes projets, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces languages.",
+    "features": [
+      {
+        "title": "Performance & rapidité",
+        "description": "Grâce à Next.js, ce portfolio bénéficie du rendu côté serveur (SSR) et de la génération de sites statiques (SSG), ce qui améliore considérablement les temps de chargement et l’expérience utilisateur",
+        "icon": "fa-solid fa-bolt"
+      },
+      {
+        "title": "Design moderne et réactif",
+        "description": "La combinaison Tailwind CSS + React a permis d'avoir un design moderne qui s’adapte parfaitement à toutes les tailles d’écran. Un très grand nombre de classes utilitaires ont servies à personnaliser ce site, ce qui fait qu'il n'y a quasiment aucun surplus de CSS sur ce portfolio.",
+        "icon": "fa-solid fa-wand-magic-sparkles"
+      },
+      {
+        "title": "SEO optimisé",
+        "description": "Grâce à Next.js, le portfolio a des fonctionnalités intégrées pour améliorer le SEO, comme la gestion des balises meta et la génération de sitemaps. Ce site est donc mieux référencé sur les moteurs de recherche qu'un site web classique fait avec React.",
+        "icon": "fa-brands fa-searchengin"
+      },
+      {
+        "title": "Composants réutilisables",
+        "description": "En utilisant React, tu as pu créer des composants réutilisables, ce qui rend ton code plus modulaire et maintenable. Explique comment cela facilite les mises à jour et l’ajout de nouvelles fonctionnalités.",
+        "icon": "fa-solid fa-cubes"
+      },
+      {
+        "title": "Expérience utilisateur fluide",
+        "description": "Grâce à React, ce portfolio offre une navigation fluide et rapide, sans rechargement de page. C'est une amélioration pour l’expérience utilisateur.",
+        "icon": "fa-solid fa-universal-access"
+      },
+      {
+        "title": "Technologies modernes",
+        "description": "L'utilisation de technologies modernes comme React, Next.js et Tailwind, montrent que ce portfolio est à jour avec les dernières tendances du développement web.",
+        "icon": "fa-solid fa-star"
+      }
+    ],
+    "conclusion": "En terminant le développement de ce portfolio, je me sens clairement capable de vous livrer une solution complète et clef en main tirant parti de technologies très populaires et de plus en plus répandues.",
+    "github_link": "https://github.com/jonathan-hartz/portfolio"
+  }
+]
