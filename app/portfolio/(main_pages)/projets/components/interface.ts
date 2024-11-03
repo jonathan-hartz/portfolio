@@ -1,5 +1,5 @@
 export interface Project {
-  _id: integer;
+  _id: number;
   slug: string;
   hook: string;
   title: string;

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-const plugin = require("tailwindcss/plugin");
+import { PluginAPI } from "tailwindcss/types/config";
+import plugin from "tailwindcss/plugin";
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx,json}",
@@ -27,8 +28,8 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/forms"),
-    plugin(function ({ matchUtilities, theme }) {
+    import("@tailwindcss/forms"),
+    plugin(function ({ matchUtilities, theme }: PluginAPI) {
       matchUtilities(
         {
           "animate-delay": (value) => ({

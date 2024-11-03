@@ -24,7 +24,12 @@ function handleWheel(
   }
 }
 
-export function useDebouncedWheel(isAtScrollEdge) {
+export function useDebouncedWheel(
+  isAtScrollEdge: () => {
+    isAtTop: boolean;
+    isAtBottom: boolean;
+  },
+) {
   const router = useRouter();
   const lastScrollTime = useRef(0);
   const current_page_pathname = usePathname();
@@ -62,5 +67,5 @@ export function useDebouncedWheel(isAtScrollEdge) {
     return () => {
       window.removeEventListener("wheel", onWheel);
     };
-  }, [current_page_pathname]);
+  }, [current_page_pathname, isAtScrollEdge, router]);
 }

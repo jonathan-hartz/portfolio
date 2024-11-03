@@ -1,126 +1,126 @@
 {
   "backend": [
     {
-      "_id": "1",
+      "_id": 1,
       "name": "PHP",
       "icon": "fa-brands fa-php"
     },
     {
-      "_id": "2",
+      "_id": 2,
       "name": "Symfony",
       "icon": "fa-brands fa-symfony"
     },
     {
-      "_id": "3",
+      "_id": 3,
       "name": "Node",
       "icon": "fa-brands fa-node"
     }
   ],
   "frontend": [
     {
-      "_id": "1",
+      "_id": 4,
       "name": "React",
       "icon": "fa-brands fa-react"
     },
     {
-      "_id": "2",
+      "_id": 5,
       "name": "Next.js",
       "icon": "icon-next"
     },
 
     {
-      "_id": "2",
+      "_id": 6,
       "name": "Tailwind",
       "icon": "icon-tailwind"
     },
     {
-      "_id": "3",
+      "_id": 7,
       "name": "JS",
       "icon": "fa-brands fa-js"
     },
     {
-      "_id": "4",
+      "_id": 8,
       "name": "TS",
       "icon": "icon-ts"
     },
     {
-      "_id": "5",
+      "_id": 9,
       "name": "HTML 5",
       "icon": "fa-brands fa-html5"
     },
     {
-      "_id": "6",
+      "_id": 10,
       "name": "CSS 3 ",
       "icon": "fa-brands fa-css3-alt"
     },
     {
-      "_id": "7",
+      "_id": 11,
       "name": "SASS",
       "icon": "fa-brands fa-sass"
     },
     {
-      "_id": "8",
+      "_id": 12,
       "name": "Bootstrap",
       "icon": "fa-brands fa-bootstrap"
     }
   ],
   "db_orm": [
     {
-      "_id": "10",
+      "_id": 13,
       "name": "MySQL",
       "icon": "icon-mysql"
     },
     {
-      "_id": "11",
+      "_id": 14,
       "name": "MongoDB",
       "icon": "icon-mongodb"
     },
     {
-      "_id": "12",
+      "_id": 15,
       "name": "Prisma",
       "icon": "icon-prisma"
     }
   ],
   "cms": [
     {
-      "_id": "12",
+      "_id": 16,
       "name": "Prestashop",
       "icon": "icon-prestashop"
     },
     {
-      "_id": "11",
+      "_id": 17,
       "name": "Wordpress",
       "icon": "fa-brands fa-wordpress"
     }
   ],
   "other": [
     {
-      "_id": "4",
+      "_id": 18,
       "name": "Atlassian",
       "icon": "fa-brands fa-atlassian"
     },
     {
-      "_id": "5",
+      "_id": 19,
       "name": "Jira",
       "icon": "fa-brands fa-jira"
     },
     {
-      "_id": "6",
+      "_id": 20,
       "name": "Git",
       "icon": "fa-brands fa-git"
     },
     {
-      "_id": "7",
+      "_id": 21,
       "name": "Debian",
       "icon": "fa-brands fa-debian"
     },
     {
-      "_id": "8",
+      "_id": 22,
       "name": "Confluence",
       "icon": "fa-brands fa-confluence"
     },
     {
-      "_id": "9",
+      "_id": 23,
       "name": "Bitbucket",
       "icon": "fa-brands fa-bitbucket"
     }

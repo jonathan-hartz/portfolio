@@ -4,7 +4,7 @@ import { Project } from "./interface";
 export default function GridItem({ project }: { project: Project }) {
   const router = useRouter();
   const backgroundColor = project.ready ? "" : "grayscale";
-  const handleClick = (e) => {
+  const handleClick = () => {
     return router.push(
       "/portfolio/projets/" + project._id + "-" + project.slug,
     );

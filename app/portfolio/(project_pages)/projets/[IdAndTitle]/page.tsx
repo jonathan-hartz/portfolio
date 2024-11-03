@@ -6,7 +6,7 @@ export default async function Page({
 }: {
   params: { IdAndTitle: string };
 }) {
-  const _id = params.IdAndTitle.split("-")[0];
+  const _id: number = parseInt(params.IdAndTitle.split("-")[0]);
   const project = projects.find(function (project) {
     return project._id == _id;
   });
@@ -93,7 +93,7 @@ export default async function Page({
                   <p>{project.conclusion}</p>
                 </div>
                 <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-100">
-                  Envie d'en savoir davantage ?
+                  Envie d&#39;en savoir davantage ?
                 </h2>
                 <p className="mt-6">
                   {project.public ? (
@@ -111,11 +111,12 @@ export default async function Page({
                   )}
                 </p>
                 <p className="mt-6">
-                  Si vous souhaitez me contacter, n'hésitez pas à m'envoyer un
-                  message par le biais de mon{" "}
+                  Si vous souhaitez me contacter, n&#39;hésitez pas à
+                  m&#39;envoyer un message par le biais de mon{" "}
                   <Link
                     className="underline underline-offset-8"
                     href={"/portfolio/me-contacter"}
+                    scroll={false}
                   >
                     formulaire de contact
                   </Link>

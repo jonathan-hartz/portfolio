@@ -28,15 +28,15 @@ export default function Menubar() {
 const MenubarDesktop = ({
   entries,
 }: {
-  entries: [
-    {
-      url: string;
-      name: string;
-      active: boolean;
-      className: string;
-      icon: string;
-    },
-  ];
+  entries: {
+    url: string;
+    name: string;
+    alternate_name: string;
+    className: string;
+    sidebarClassName: string;
+    icon: string;
+    active: boolean;
+  }[];
 }) => {
   return renderEntriesForDesktop(entries);
 };
@@ -45,15 +45,15 @@ const MenubarMobile = ({
   isOpen,
   setOpen,
 }: {
-  entries: [
-    {
-      url: string;
-      name: string;
-      active: boolean;
-      className: string;
-      icon: string;
-    },
-  ];
+  entries: {
+    url: string;
+    name: string;
+    alternate_name: string;
+    className: string;
+    sidebarClassName: string;
+    icon: string;
+    active: boolean;
+  }[];
   isOpen: boolean;
   setOpen: Dispatch<SetStateAction<boolean>>;
 }) => {
@@ -69,15 +69,15 @@ const MenubarMobile = ({
 
 const renderEntriesForMobile = (
   setOpen: Dispatch<SetStateAction<boolean>>,
-  entries: [
-    {
-      url: string;
-      name: string;
-      active: boolean;
-      className: string;
-      icon: string;
-    },
-  ],
+  entries: {
+    url: string;
+    name: string;
+    alternate_name: string;
+    className: string;
+    sidebarClassName: string;
+    icon: string;
+    active: boolean;
+  }[],
 ) => {
   return (
     <motion.span
@@ -106,15 +106,15 @@ const renderEntriesForMobile = (
 };
 
 const renderEntriesForDesktop = (
-  entries: [
-    {
-      url: string;
-      name: string;
-      active: boolean;
-      className: string;
-      icon: string;
-    },
-  ],
+  entries: {
+    url: string;
+    name: string;
+    alternate_name: string;
+    className: string;
+    sidebarClassName: string;
+    icon: string;
+    active: boolean;
+  }[],
 ) => {
   return (
     <span>

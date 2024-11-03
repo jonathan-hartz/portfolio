@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { LayoutRouterContext } from "next/dist/shared/lib/app-router-context.shared-runtime";
-import { useContext, useEffect, useRef } from "react";
+import { useContext, useRef } from "react";
 import { useDebouncedWheel } from "./useDebouncedWheel";
 import { useSwipe } from "./useSwipe";
 function FrozenRouter({ children }: { children: React.ReactNode }) {

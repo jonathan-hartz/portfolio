@@ -23,7 +23,12 @@ function handleSwipe(
   }
 }
 
-export function useSwipe(isAtScrollEdge) {
+export function useSwipe(
+  isAtScrollEdge: () => {
+    isAtTop: boolean;
+    isAtBottom: boolean;
+  },
+) {
   const router = useRouter();
   const current_page_pathname = usePathname();
   useEffect(() => {
@@ -31,15 +36,15 @@ export function useSwipe(isAtScrollEdge) {
     let touchEnd = 0;
     const minSwipeDistance = 50;
 
-    const onTouchStart = (e) => {
+    const onTouchStart = (e: TouchEvent) => {
       touchStart = e.targetTouches[0].clientY;
     };
 
-    const onTouchMove = (e) => {
+    const onTouchMove = (e: TouchEvent) => {
       touchEnd = e.targetTouches[0].clientY;
     };
 
-    const onTouchEnd = (e) => {
+    const onTouchEnd = () => {
       if (!touchStart || !touchEnd) return;
 
       const distance = touchStart - touchEnd;
@@ -61,5 +66,5 @@ export function useSwipe(isAtScrollEdge) {
       window.removeEventListener("touchmove", onTouchMove);
       window.removeEventListener("touchend", onTouchEnd);
     };
-  }, [current_page_pathname]);
+  }, [current_page_pathname, isAtScrollEdge, router]);
 }

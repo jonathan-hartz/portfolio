@@ -33,13 +33,9 @@ export default function Panel({
     >
       <div className="mb-10 mt-2 grid grid-cols-6 items-center justify-items-center gap-2 text-center sm:grid-cols-3 sm:gap-1 md:grid-cols-4">
         {skills &&
-          skills.map((skill) => {
+          skills.map((skill, key) => {
             return (
-              <ItemSkill
-                key={skill._id}
-                skill={skill}
-                color={backgroundColor}
-              />
+              <ItemSkill key={key} skill={skill} color={backgroundColor} />
             );
           })}
       </div>

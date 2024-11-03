@@ -3,10 +3,21 @@ import { SendMail } from "@/app/actions/SendMailAction";
 import SubmitButton from "./SubmitButton";
 import { useFormState } from "react-dom";
 import { useReCaptcha } from "next-recaptcha-v3";
+import { ZodIssue } from "zod";
 
 export default function ContactForm() {
-  const initialState = {
-    errors: [],
+  type MessageState = {
+    messages: {
+      errors: ZodIssue[] | undefined;
+    };
+    success: boolean;
+  };
+
+  const initialState: MessageState = {
+    messages: {
+      errors: undefined,
+    },
+    success: false,
   };
   const { executeRecaptcha } = useReCaptcha();
   const [state, formAction] = useFormState(SendMailWithToken, initialState);
@@ -42,11 +53,11 @@ export default function ContactForm() {
         ) : (
           <div className="mx-auto mt-2 max-w-2xl text-center">
             <h1 className="text-2xl font-bold tracking-tight text-slate-200 sm:text-4xl">
-              Vous voulez qu'on entre en contact ?
+              Vous voulez qu&#39;on entre en contact ?
             </h1>
             <p className="text-lg leading-8 text-slate-300 sm:text-lg">
-              N'hésitez pas à me laisser un message. Je vous contacterai dès que
-              possible !
+              N&#39;hésitez pas à me laisser un message. Je vous contacterai dès
+              que possible !
             </p>
           </div>
         )}

@@ -11,6 +11,7 @@ const entries = [
   {
     url: "/portfolio/mes-services",
     name: "Mes services",
+    icon: "",
     alternate_name: "mes services",
     className: "",
     sidebarClassName: "fa-solid fa-industry",
@@ -18,6 +19,7 @@ const entries = [
   },
   {
     url: "/portfolio/competences",
+    icon: "",
     name: "Mes compétences",
     alternate_name: "mes compétences",
     className: "",
@@ -26,6 +28,7 @@ const entries = [
   },
   {
     url: "/portfolio/projets",
+    icon: "",
     name: "Mes projets",
     alternate_name: "mes projets",
     className: "",
@@ -34,6 +37,7 @@ const entries = [
   },
   {
     url: "/portfolio/me-contacter",
+    icon: "",
     name: "Me contacter",
     alternate_name: "le formulaire de contact",
     className: "",

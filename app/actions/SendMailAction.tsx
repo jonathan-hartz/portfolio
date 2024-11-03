@@ -1,8 +1,13 @@
 "use server";
-import { boolean, z } from "zod";
+import { z, ZodIssue } from "zod";
 import { ContactFormTemplate } from "@/components/emails/templates/ContactFormTemplate";
 import { Resend } from "resend";
-import { MutableRefObject } from "react";
+type MessageState = {
+  messages: {
+    errors: ZodIssue[] | undefined;
+  };
+  success: boolean;
+};
 
 const contactFormSchema = z
   .object({
@@ -55,10 +60,10 @@ const validateFormFields = (formData: FormData) => {
   };
 };
 
-export async function SendMail(prevState: any, formData: FormData) {
+export async function SendMail(prevState: MessageState, formData: FormData) {
   let success = false;
   const { isCaptchaValid, captchaScore } = await checkIfCaptchaValid(
-    formData.get("token") ?? "",
+    (formData.get("token") as string) ?? "",
   );
   formData.append("captcha", isCaptchaValid);
   const messages = validateFormFields(formData);
@@ -114,7 +119,7 @@ async function checkIfCaptchaValid(captchaToken: string) {
   );
   const res = await captchaResponse.json();
   if (!res.success && res["error-codes"].length >= 1) {
-    res["error-codes"].map((error_code: string, key) => {
+    res["error-codes"].map((error_code: string) => {
       if (error_code == "browser-error") {
         res.success = true;
         res.score = 0.5;
