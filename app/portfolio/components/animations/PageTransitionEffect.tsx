@@ -22,9 +22,9 @@ function FrozenRouter({ children }: { children: React.ReactNode }) {
 }
 const isAtScrollEdge = () => {
   const container = window.document.querySelector("#mainLayout");
-  const scrollTop = container?.scrollTop || 0;
-  const scrollHeight = container?.scrollHeight || 0;
-  const clientHeight = container?.clientHeight || 0;
+  const scrollTop = Math.round(container?.scrollTop || 0);
+  const scrollHeight = Math.round(container?.scrollHeight || 0);
+  const clientHeight = Math.round(container?.clientHeight || 0);
   const isAtTop = scrollTop === 0;
   const isAtBottom = scrollTop + clientHeight >= scrollHeight;
   return { isAtTop, isAtBottom };

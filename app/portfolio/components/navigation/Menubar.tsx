@@ -11,7 +11,7 @@ export default function Menubar() {
   const entries = getMenuEntries(current_path);
   const [isOpen, setOpen] = useState(false);
   return (
-    <header className="relative z-50 flex justify-between pr-2 font-medium text-white md:py-5">
+    <header className="relative z-40 flex justify-between pr-2 font-medium text-white md:py-5">
       <span></span>
       <nav>
         <span className="hidden lg:block">

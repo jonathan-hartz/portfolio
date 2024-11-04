@@ -1,7 +1,7 @@
 [
   {
     "title": "Création de sites web sur mesure",
-    "description": "Je vous créer votre site web personnalisé qui tiendra compte de vos exigences, en utilisant les dernières technologies et tendances de design.",
+    "description": "Je vous crée votre site web personnalisé qui tiendra compte de vos exigences, en utilisant les dernières technologies et tendances de design.",
     "icon": "fa-solid fa-laptop-code",
     "borderColor": "border-blue-400",
     "fromColor": "from-blue-300",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Développement de sites e-commerce",
-    "description": "Je développpe votre site e-commerce, ou je l'améliore. Je vous aide à tous les niveaux, y compris l’intégration de systèmes de paiement sécurisés, le checkout, et la gestion des stocks.",
+    "description": "Je développe votre site e-commerce, ou je l'améliore. Je vous aide à tous les niveaux, y compris l’intégration de systèmes de paiement sécurisés, le check-out, et la gestion des stocks.",
     "icon": "fa-solid fa-cart-shopping",
     "borderColor": "border-teal-400",
     "fromColor": "from-teal-300",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Développement d’applications web",
-    "description": "Je créer vos applications web, interactives et performantes, qui peuvent améliorer l’expérience utilisateur et répondre à des besoins spécifiques.",
+    "description": "Je crée vos applications web, interactives et performantes, qui peuvent améliorer l’expérience utilisateur et répondre à des besoins spécifiques.",
     "icon": "fa-solid fa-code",
     "borderColor": "border-fuchsia-400",
     "fromColor": "from-fuchsia-300",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Développements internes",
-    "description": "Je m'occupe de mettre en place des solutions techniques interne, comme par exemple des scripts de sauvegarde ou de synchronisation, mais également des solutions sur mesure.",
+    "description": "Je m'occupe de mettre en place des solutions techniques internes, comme par exemple des scripts de sauvegarde ou de synchronisation, mais également des solutions sur mesure.",
     "icon": "fa-solid fa-ruler-combined",
     "borderColor": "border-purple-400",
     "fromColor": "from-purple-300",

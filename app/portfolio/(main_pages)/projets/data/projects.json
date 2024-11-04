@@ -15,7 +15,7 @@
       }
     ],
     "technologies_used": ["icon-next", "fa-brands fa-react", "icon-tailwind"],
-    "description": "Un projet passionant, et nécessaire pour vous présenter mes services, compétences et mes projets, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces languages.",
+    "description": "Un projet passionnant, et nécessaire pour vous présenter mes services, compétences et mes projets, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces langages.",
     "features": [
       {
         "title": "Performance & rapidité",
@@ -24,7 +24,7 @@
       },
       {
         "title": "Design moderne et réactif",
-        "description": "La combinaison Tailwind CSS + React a permis d'avoir un design moderne qui s’adapte parfaitement à toutes les tailles d’écran. Un très grand nombre de classes utilitaires ont servies à personnaliser ce site, ce qui fait qu'il n'y a quasiment aucun surplus de CSS sur ce portfolio.",
+        "description": "La combinaison Tailwind CSS + React a permis d'avoir un design moderne qui s’adapte parfaitement à toutes les tailles d’écran. Un très grand nombre de classes utilitaires ont servi à personnaliser ce site, ce qui fait qu'il n'y a quasiment aucun surplus de CSS sur ce portfolio.",
         "icon": "fa-solid fa-wand-magic-sparkles"
       },
       {
@@ -44,11 +44,11 @@
       },
       {
         "title": "Technologies modernes",
-        "description": "L'utilisation de technologies modernes comme React, Next.js et Tailwind, montrent que ce portfolio est à jour avec les dernières tendances du développement web.",
+        "description": "L'utilisation de technologies modernes comme React, Next.js et Tailwind montre que ce portfolio est à jour avec les dernières tendances du développement web.",
         "icon": "fa-solid fa-star"
       }
     ],
-    "conclusion": "En terminant le développement de ce portfolio, je me sens clairement capable de vous livrer une solution complète et clef en main tirant parti de technologies très populaires et de plus en plus répandues.",
+    "conclusion": "En terminant le développement de ce portfolio, je me sens clairement capable de vous livrer une solution complète et clé en main tirant parti de technologies très populaires et de plus en plus répandues.",
     "github_link": "https://github.com/jonathan-hartz/portfolio"
   }
 ]
