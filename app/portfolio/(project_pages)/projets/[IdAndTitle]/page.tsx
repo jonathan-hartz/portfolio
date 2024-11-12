@@ -18,7 +18,7 @@ export default async function Page({
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <div className="rounded-lg bg-indigo-600/35 p-4">
+                <div className="rounded-lg bg-indigo-600/25 p-4">
                   <p className="text-base font-semibold leading-7 text-indigo-300">
                     {project.hook}
                   </p>
@@ -27,23 +27,39 @@ export default async function Page({
                   </h1>
 
                   <div className="mt-4 text-sm">
-                    Technologies :
-                    <span className="font-customFont">
-                      {project.technologies_used.map((technology_used, key) => (
-                        <span key={key} className={`mx-1 ${technology_used}`} />
-                      ))}
-                    </span>
-                  </div>
-
-                  <div className="mt-4 text-sm">
                     <span>
                       {project.categories.map((category, key) => (
                         <span
                           key={key}
-                          className={`rounded-md bg-gradient-to-b p-2 font-bold ${category.color}`}
+                          className={`mr-2 bg-gradient-to-b px-2 py-1 text-xs ${category.color}`}
                         >
                           {category.title}
                         </span>
+                      ))}
+
+                      {!project.public ? (
+                        <span
+                          className={`bg-gradient-to-b from-red-500 to-red-600 px-2 py-1 text-xs text-slate-200`}
+                        >
+                          projet privé
+                        </span>
+                      ) : (
+                        <span
+                          className={`bg-gradient-to-b from-green-500 to-green-600 px-2 py-1 text-xs text-slate-800`}
+                        >
+                          projet publique
+                        </span>
+                      )}
+                    </span>
+                  </div>
+
+                  <div className="mt-4 rounded-md bg-slate-700/50 p-2">
+                    <span className="mb-2 mr-2 block text-sm text-slate-300">
+                      Technologies :
+                    </span>
+                    <span className="font-customFont text-2xl text-white">
+                      {project.technologies_used.map((technology_used, key) => (
+                        <span key={key} className={`mx-2 ${technology_used}`} />
                       ))}
                     </span>
                   </div>
@@ -62,17 +78,23 @@ export default async function Page({
               width={0}
               height={0}
               src={`/projects/${project.imagePath}`}
+              priority
+              quality={100}
+              unoptimized={true}
               className="w-[48rem] rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] lg:max-w-none"
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 text-gray-100 lg:max-w-lg">
-                <p>{project.description}</p>
+                <p className="whitespace-pre-line">{project.description}</p>
                 <div className="mt-8 font-medium underline">
                   Les points clefs de ce projet :{" "}
                 </div>
-                <ul role="list" className="mt-4 space-y-8 text-slate-300">
+                <ul
+                  role="list"
+                  className="mt-4 space-y-8 whitespace-pre-line text-slate-300"
+                >
                   {project.features.map((feature, key) => {
                     return (
                       <li key={key} className="flex gap-x-3">
@@ -89,7 +111,7 @@ export default async function Page({
                     );
                   })}
                 </ul>
-                <div className="mt-8">
+                <div className="mt-8 whitespace-pre-line">
                   <p>{project.conclusion}</p>
                 </div>
                 <h2 className="mt-8 text-2xl font-bold tracking-tight text-gray-100">
@@ -107,7 +129,7 @@ export default async function Page({
                       </Link>
                     </>
                   ) : (
-                    "Malheureusement, l'accès au code source de ce projet n'est pas possible, car ce projet est privé. Je peux néanmoins répondre à vos questions : n'hésitez donc pas à me contacter."
+                    "Malheureusement, l'accès au code source de ce projet n'est pas possible, car ce projet est privé. Je peux néanmoins répondre aux questions qui ne violeront pas la confidentialité de ce projet : n'hésitez donc pas à me contacter."
                   )}
                 </p>
                 <p className="mt-6">

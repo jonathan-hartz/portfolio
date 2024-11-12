@@ -10,21 +10,21 @@
     "public": true,
     "categories": [
       {
-        "title": "Site web sur mesure",
-        "color": "from-violet-600 to-violet-700 text-slate-200"
+        "title": "site web sur mesure",
+        "color": "from-blue-600 to-blue-700 text-slate-200"
       }
     ],
     "technologies_used": ["icon-next", "fa-brands fa-react", "icon-tailwind"],
-    "description": "Un projet passionnant, et nécessaire pour vous présenter mes services, compétences et mes projets, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces langages.",
+    "description": "Un projet passionnant, et nécessaire pour vous présenter mes services, compétences et mes réalisations, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces langages.",
     "features": [
       {
         "title": "Performance & rapidité",
-        "description": "Grâce à Next.js, ce portfolio bénéficie du rendu côté serveur (SSR) et de la génération de sites statiques (SSG), ce qui améliore considérablement les temps de chargement et l’expérience utilisateur",
+        "description": "Grâce à Next.js, ce portfolio bénéficie du rendu côté serveur (SSR) et de la génération de sites statiques (SSG), ce qui améliore considérablement les temps de chargement et l'expérience utilisateur",
         "icon": "fa-solid fa-bolt"
       },
       {
         "title": "Design moderne et réactif",
-        "description": "La combinaison Tailwind CSS + React a permis d'avoir un design moderne qui s’adapte parfaitement à toutes les tailles d’écran. Un très grand nombre de classes utilitaires ont servi à personnaliser ce site, ce qui fait qu'il n'y a quasiment aucun surplus de CSS sur ce portfolio.",
+        "description": "La combinaison Tailwind CSS + React a permis d'avoir un design moderne qui s'adapte parfaitement à toutes les tailles d'écran. Un très grand nombre de classes utilitaires ont servi à personnaliser ce site, ce qui fait qu'il n'y a quasiment aucun surplus de CSS sur ce portfolio.",
         "icon": "fa-solid fa-wand-magic-sparkles"
       },
       {
@@ -34,12 +34,12 @@
       },
       {
         "title": "Composants réutilisables",
-        "description": "En utilisant React, j'ai pu créer des composants réutilisables qui ont rendu mon code plus modulaire et maintenable. Cela facilite énormément les mises à jour et l’ajout de nouvelles fonctionnalités sur cette application !",
+        "description": "En utilisant React, j'ai pu créer des composants réutilisables qui ont rendu mon code plus modulaire et maintenable. Cela facilite énormément les mises à jour et l'ajout de nouvelles fonctionnalités sur cette application !",
         "icon": "fa-solid fa-cubes"
       },
       {
         "title": "Expérience utilisateur fluide",
-        "description": "Grâce à React, ce portfolio offre une navigation fluide et rapide, sans rechargement de page. C'est une amélioration pour l’expérience utilisateur.",
+        "description": "Grâce à React, ce portfolio offre une navigation fluide et rapide, sans rechargement de page. C'est une amélioration pour l'expérience utilisateur.",
         "icon": "fa-solid fa-universal-access"
       },
       {
@@ -50,5 +50,184 @@
     ],
     "conclusion": "En terminant le développement de ce portfolio, je me sens clairement capable de vous livrer une solution complète et clé en main tirant parti de technologies très populaires et de plus en plus répandues.",
     "github_link": "https://github.com/jonathan-hartz/portfolio"
+  },
+  {
+    "_id": 2,
+    "slug": "john-steel",
+    "hook": "Le spécialiste de la découpe sur mesure",
+    "title": "Site e-commerce de John Steel",
+    "imagePath": "john-steel.png",
+    "subtitle": "Un site e-commerce fait sous Prestashop dont les produits sont conçus par ses propres utilisateurs !",
+    "ready": true,
+    "public": false,
+    "categories": [
+      {
+        "title": "site e-commerce",
+        "color": "from-teal-300 to-teal-400 text-black"
+      }
+    ],
+    "technologies_used": [
+      "icon-prestashop",
+      "icon-mysql",
+      "icon-mongodb",
+      "fa-brands fa-php",
+      "fa-brands fa-symfony",
+      "fa-brands fa-node",
+      "fa-brands fa-js",
+      "fa-brands fa-html5",
+      "fa-brands fa-css3-alt",
+      "fa-brands fa-sass",
+      "fa-brands fa-bootstrap",
+      "fa-brands fa-wordpress"
+    ],
+    "description": "Cette boutique en ligne - spécialisée dans la découpe sur mesure de pièces de métal et de bois - dispose de nombreuses fonctionnalités développée sur mesure, et m'a permis de gagner la maîtrise de Prestashop. En effet, j'ai du à de nombreuses reprises explorer les entrailles de ce CMS qui possède une forte réputation à l'internationale !\n\n De nombreuses fonctionnalités sur mesure ont été faites pour ce site : système de configuration de produit, \"Landing Pages\" administrables facilement en back-office, étape de checkout supplémentaire pour gérer les délais de commande, prix dynamique ... ",
+    "features": [
+      {
+        "title": "Configurateur de pièce",
+        "description": "Ce module permet de créer des produits sur mesure grâce aux \"Déclinaisons de produits\" (Combinations) de Prestashop, via un configurateur où le client peut choisir la nuance de métal, l'épaisseur et les dimensions de sa pièce. L'utilisateur peut même ajouter des trous à sa pièce et effectuer des modifications via un éditeur !",
+        "icon": "fa-solid fa-cogs"
+      },
+
+      {
+        "title": "Les prix : sur mesure, et dégressifs",
+        "description": "Un module Prestashop développé pour gérer les prix des pièces sur mesure, prenant en compte entre autres l'épaisseur, les dimensions et le nombre de trous. Ce système permet également de calculer un prix unitaire dégressif, pouvant réduire le prix unitaire des pièces ajoutées au panier pour les utilisateurs commandant en grande quantité.",
+        "icon": "fa-solid fa-euro"
+      },
+      {
+        "title": "Système de vitesse de fabrication",
+        "description": "En utilisant les mécanismes de Hook de Prestashop, une étape supplémentaire a été ajoutée au processus de checkout, permettant au client de choisir une livraison rapide ou standard, impactant directement le total de la commande (un délai de fabrication plus lent entraînant par exemple une réduction du total HT du panier). Cela a également un impact technique sur l'affichage du transporteur que l'on peut sélectionner, ce qui m'a permis de plonger dans la personnalisation poussée des transporteurs !",
+        "icon": "fa-solid fa-rocket"
+      },
+      {
+        "title": "Utilisation de l'API de Wordpress",
+        "description": "Saviez-vous qu'il est possible d'intégrer les pages de votre site Wordpress dans un site Prestashop ? C'est ce que j'ai appris sur ce projet ! En développant un module de récupération des articles utilisant l'API de Wordpress, j'ai pu afficher facilement ces articles sur un template Prestashop. L'intérêt principal de ce système est d'optimiser les performances : plus besoin de charger tout un site Wordpress pour récupérer le contenu principal.",
+        "icon": "fa-brands fa-wordpress"
+      },
+      {
+        "title": "Bandeau publicitaire configurable",
+        "description": "En concevant un module d'animation commerciale, j'ai permis à mes collaborateurs du service marketing d'afficher des bandeaux publicitaires en header du site, programmés avec des dates de début et de fin, évitant ainsi toute intervention manuelle. Cela permet de programmer l'affichage d'événements annuels, comme le Black Friday.",
+        "icon": "fa-solid fa-bullhorn"
+      },
+      {
+        "title": "Système d'export de fichiers (Cron)",
+        "description": "De nombreux systèmes d'export ont été conçus, incluant des exports comptables pour mieux gérer les commandes passées, ainsi que des systèmes pour le suivi et les expéditions des commandes",
+        "icon": "fa-solid fa-file-export"
+      }
+    ],
+    "conclusion": "Les différents points évoqués ne représentent qu'une synthèse assez brève des travaux que j'ai pu effectuer sur ce site e-commerce. \n\n [Ce projet reste privé, et n'est pas ma propriété : il appartient à la société John Steel, dont j'ai été développeur pendant de nombreuses années.]",
+    "github_link": ""
+  },
+  {
+    "_id": 3,
+    "slug": "module-prix-sur-mesure",
+    "hook": "Un système pour ajuster finement son prix de vente sur Prestashop",
+    "title": "Module de gestion de prix sur mesure",
+    "imagePath": "module-gestion-prix.png",
+    "subtitle": "La possibilité de définir ses propres prix en fonction de paramètres complexes",
+    "ready": true,
+    "public": false,
+    "categories": [
+      {
+        "title": "module prestashop",
+        "color": "from-emerald-300 to-emerald-400 text-black"
+      }
+    ],
+    "technologies_used": [
+      "icon-prestashop",
+      "icon-mysql",
+      "fa-brands fa-php",
+      "fa-brands fa-symfony",
+      "fa-brands fa-js",
+      "fa-brands fa-bootstrap"
+    ],
+
+    "description": "Fixer des prix en fonction du contexte d'un panier utilisateur peut parfois s'avérer compliqué dans Prestashop. C'est pourquoi j'ai développé un module innovant permettant de gérer finement les coûts des produits et de calculer leur prix de vente final grâce à un système de composantes de coût. Ce système a été perfectionné au point de permettre la définition de sous-composantes au sein des composantes principales. \n\n Par exemple, il est possible de définir une composante de coût au m³ d'un produit, en prenant en compte son coût au m³ (une sous-composante) que l'on peut multiplier par la taille de la pièce (une autre sous-composante). Toutes ces composantes peuvent être créées à partir d'un calcul simple (une formule mathématique basique) ou basées sur des données plus complexes à obtenir (un script PHP peut générer une composante, ou les données peuvent être récupérées depuis un tableau de données). \n\n Ce module ne se limite pas à la définition de formules de prix de vente pour des pièces personnalisées. Il inclut également des fonctionnalités supplémentaires intéressantes, comme un onglet de suivi des commandes passées, permettant de visualiser le coût de fabrication d'un produit et le prix de vente facturé au client",
+    "features": [
+      {
+        "title": "Système de création de coûts",
+        "description": "Il est possible de définir différents coûts et de les assembler pour créer une formule de prix. La création de coûts se base sur des composantes qui peuvent être simples (une formule dans un champ) ou plus complexes (un éditeur de script Monaco permet de créer des scripts sophistiqués pour retourner un coût complexe grâce à des variables instanciées lors de l'affichage du prix au client).",
+        "icon": "fas fa-cogs"
+      },
+      {
+        "title": "Simulation de prix",
+        "description": "J'ai développé un système de simulation permettant de saisir diverses informations (type de produit, dimensions, etc.) et de voir le coût et le prix de vente proposés. Il est également possible de consulter en détail l'arbre des composantes et sous-composantes, idéal pour vérifier si les paramétrages de la formule sont exact.",
+        "icon": "fas fa-calculator"
+      },
+      {
+        "title": "Suivi détaillé des commandes",
+        "description": "Une fois la formule de prix mise en place, il est possible de visualiser les commandes entrantes, d'analyser les coûts des pièces et le prix de vente facturé. Comme dans le mode simulation, il est possible d'examiner la composition précise des coûts.",
+        "icon": "fas fa-list-alt"
+      },
+      {
+        "title": "Amélioration du système des coûts transporteurs",
+        "description": "La gestion des coûts des transporteurs, souvent complexe dans Prestashop avec de nombreux transporteurs, est simplifiée grâce à un système que j'ai développé pour une gestion plus efficace des coûts.",
+        "icon": "fas fa-shipping-fast"
+      },
+      {
+        "title": "Gestion des marges par type de clients",
+        "description": "Pour chaque groupe de clients, j'ai développé la possibilité d'appliquer une marge spéciale, avec la possibilité de créer des combinaisons de critères pour ajuster les marges (par exemple, appliquer une marge particulière si un groupe de clients n'a qu'un type précis de produit dans leur panier).",
+        "icon": "fas fa-percentage"
+      }
+    ],
+    "conclusion": "En développant ce module de gestion des prix, j'ai pu relever des défis techniques complexes et proposer des solutions innovantes pour optimiser la gestion des coûts et des prix dans Prestashop. Chaque fonctionnalité a été pensée pour apporter une réelle valeur ajoutée, tant pour l'utilisateur final que pour les administrateurs de la boutique. \n\nSi ce projet a retenu votre attention et que vous souhaitez en savoir plus sur son développement, son intégration ou ses applications possibles, n'hésitez pas à me contacter. ",
+    "github_link": ""
+  },
+  {
+    "_id": 4,
+    "slug": "interface-suivi-expeditions",
+    "hook": "Suivre ses commandes Prestashop, et les expédier simplement",
+    "title": "Interface de suivi des expéditions",
+    "imagePath": "interface-suivi-expeditions.png",
+    "subtitle": "Une application web dédiée à l'expédition et à la gestion des commandes passées par les clients.",
+    "ready": true,
+    "public": false,
+    "categories": [
+      {
+        "title": "application web",
+        "color": "from-fuchsia-600 to-fuchsia-700 text-slate-200"
+      }
+    ],
+    "technologies_used": [
+      "icon-prestashop",
+      "fa-brands fa-php",
+      "fa-brands fa-js",
+      "fa-brands fa-html5",
+      "fa-brands fa-css3-alt"
+    ],
+    "description": "Dans un environnement industriel où l'efficacité et la productivité sont essentielles, il est indispensable de disposer d'un outil adapté à ces exigences. C'est pourquoi j'ai développé cette application, qui permet de récupérer facilement les commandes passées sur un site Prestashop et de les traiter efficacement, sans les complexités du back-office de ce CMS. \n\n En outre, de nombreuses interfaces avec des transporteurs (tels que DPD, GEODIS ou DHL) ont été intégrées pour l'édition d'étiquettes de transport, une fonctionnalité non incluse par défaut dans Prestashop.",
+    "features": [
+      {
+        "title": "Gestion des commandes",
+        "description": "Les commandes clients et leurs états sont récupérés via l'API Prestashop, permettant des modifications en temps réel comme les changements d'état après une expédition réussie.",
+        "icon": "fa-solid fa-clipboard-list"
+      },
+      {
+        "title": "Téléchargement de fichiers (DXF, Bon de livraison, Facture)",
+        "description": "Grâce à une connexion FTP et aux informations de l'API, le personnel peut récupérer des fichiers nécessaires de manière simple et rapide.",
+        "icon": "fa-solid fa-file-download"
+      },
+      {
+        "title": "Mise à jour des états de commande",
+        "description": "Un système de transition des états a été développé, communiquant en temps réel avec la boutique Prestashop grâce à son API.",
+        "icon": "fa-solid fa-sync"
+      },
+      {
+        "title": "Gestion des cartons",
+        "description": "Un système dédié permet de gérer plusieurs cartons par commande, avec la possibilité de prévisualiser la répartition des pièces dans chaque carton.",
+        "icon": "fa-solid fa-box"
+      },
+      {
+        "title": "Étiquetage des cartons et suivi des expéditions",
+        "description": "Des interfaces spécifiques pour chaque transporteur (TNT, DPD, DHL, GEODIS) ont été développées, ainsi qu'un système générique pour une meilleure maintenabilité du code. L'ajout d'un nouveau transporteur peut se faire bien plus rapidement grâce à la généricité du code.",
+        "icon": "fa-solid fa-shipping-fast"
+      },
+      {
+        "title": "Système d'impression des étiquettes (Zebra)",
+        "description": "Avec une variété de types d'étiquettes qui s'accroit avec le nombre de transporteurs, il a fallu mettre en place une solution commune d'étiquetage utilisant une étiqueteuse Zebra et un système que j'ai développé en interne interne pour imprimer correctement les étiquettes.",
+        "icon": "fa-solid fa-tag"
+      }
+    ],
+    "conclusion": "Ce projet m'a été très satisfaisant, me permettant de découvrir le monde des API et de résoudre des problématiques d'usine. Travailler sur ce projet a été enrichissant, car j'ai pu améliorer les performances d'une équipe et acquérir une grande confiance en mes compétences, ce qui est toujours bénéfique 😉",
+    "github_link": ""
   }
 ]

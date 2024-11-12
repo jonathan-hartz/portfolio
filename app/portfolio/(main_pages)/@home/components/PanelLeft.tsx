@@ -20,8 +20,8 @@ export default function PanelLeft() {
       <div className="hidden text-justify text-base md:block">
         <p className="mb-8">
           Je suis content de vous présenter un peu de ma vie professionelle !
-          Vous trouverez sur ce site mes projets, compétences et tout ce qui
-          peut vous intéresser chez moi.
+          Vous trouverez sur ce site mes réalisations, compétences et tout ce
+          qui peut vous intéresser chez moi.
         </p>
         <p>
           N&#39;hésitez pas à{" "}

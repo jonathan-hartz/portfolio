@@ -4,6 +4,7 @@ import SubmitButton from "./SubmitButton";
 import { useFormState } from "react-dom";
 import { useReCaptcha } from "next-recaptcha-v3";
 import { ZodIssue } from "zod";
+import { useEffect } from "react";
 
 export default function ContactForm() {
   type MessageState = {
@@ -31,6 +32,9 @@ export default function ContactForm() {
     formData.set("token", token);
     return SendMail(prevState, formData);
   }
+  useEffect(() => {
+    document.getElementById("mainLayout")?.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="isolate mx-auto rounded-xl bg-indigo-900/95 px-6 py-2 shadow-2xl sm:py-12 lg:px-2">

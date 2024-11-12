@@ -29,8 +29,8 @@ const entries = [
   {
     url: "/portfolio/projets",
     icon: "",
-    name: "Mes projets",
-    alternate_name: "mes projets",
+    name: "Mes réalisations",
+    alternate_name: "mes réalisations",
     className: "",
     sidebarClassName: "fa-solid fa-diagram-project",
     active: false,
