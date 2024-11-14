@@ -14,7 +14,7 @@ export default function Logo() {
       onClick={handleClick}
       className="absolute left-2 top-2 z-50 block cursor-pointer"
     >
-      <Image src={"/logo_m.png"} width={40} height={40} alt={"Mon logo"} />
+      <Image src={"/logo_b.png"} width={40} height={40} alt={"Mon logo"} />
     </div>
   );
 }
