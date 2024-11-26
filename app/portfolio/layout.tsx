@@ -5,7 +5,7 @@ import Header from "@/app/portfolio/components/Header";
 import Script from "next/script";
 import { Nunito } from "next/font/google";
 import localFont from "next/font/local";
-import MatomoTracking from "./components/MatomoTracking";
+import { Analytics } from "@vercel/analytics/react";
 
 const nunito = Nunito({
   weight: ["200", "400", "600", "800", "1000"],
@@ -34,7 +34,7 @@ export default function RootLayout({
         src="https://kit.fontawesome.com/836c0b582d.js"
         crossOrigin="anonymous"
       ></Script>
-      <MatomoTracking />
+      <Analytics />
       <body className="overscroll-contain">
         <div className="absolute h-full w-full overflow-hidden bg-gradient-to-r from-blue-800 to-indigo-900 font-nunito font-thin text-neutral-100">
           <div
