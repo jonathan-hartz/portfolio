@@ -18,9 +18,11 @@ const custom_font = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Jonathan Hartz / Portfolio",
+  title: "Jonathan Hartz - Développeur Web Freelance - Saverne, Alsace",
   description:
-    "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : react, next, javascript, PHP, Symfony, Prestashop ...",
+    "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : React JS, Next.js, javascript, PHP, Symfony, Prestashop ...",
+  keywords:
+    "développeur web, développeur, full stack, full-stack, back-end, backend, frontend, front-end, applications web, site e-commerce, freelance, Saverne, Alsace, e-commerce, react, next, javascript, PHP, Symfony, Prestashop",
 };
 
 export default function RootLayout({
