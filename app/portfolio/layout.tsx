@@ -21,9 +21,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://jonathan-hartz.dev"),
   title: "Jonathan Hartz - Développeur Web Freelance - Saverne, Alsace",
   description:
-    "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : React JS, Next.js, javascript, PHP, Symfony, Prestashop ...",
+    "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : React JS, Next.js, Prestashop, Wordpress, javascript, PHP, Symfony et autre",
   keywords:
-    "développeur web, développeur, full stack, full-stack, back-end, backend, frontend, front-end, applications web, site e-commerce, freelance, Saverne, Alsace, e-commerce, react, next, javascript, PHP, Symfony, Prestashop",
+    "développeur web, développeur, full stack, e-commerce, backend, frontend, applications web, freelance, Saverne, Alsace,React JS, react, next, Next.js, javascript, PHP, Symfony, Prestashop",
   alternates: {
     canonical: "./",
   },
