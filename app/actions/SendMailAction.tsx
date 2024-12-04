@@ -2,6 +2,7 @@
 import { z, ZodIssue } from "zod";
 import { ContactFormTemplate } from "@/components/emails/templates/ContactFormTemplate";
 import { Resend } from "resend";
+import { logger } from "@/components/logger/pino";
 type MessageState = {
   messages: {
     errors: ZodIssue[] | undefined;
@@ -62,6 +63,15 @@ const validateFormFields = (formData: FormData) => {
 
 export async function SendMail(prevState: MessageState, formData: FormData) {
   let success = false;
+  const child = logger.child({
+    fullname: formData.get("fullname")?.toString(),
+    company: formData.get("company")?.toString(),
+    email: formData.get("email")?.toString(),
+    phone: formData.get("phone")?.toString(),
+    message: formData.get("message")?.toString(),
+  });
+  child.info("Message envoyé par le formulaire de contact");
+
   const { isCaptchaValid, captchaScore } = await checkIfCaptchaValid(
     (formData.get("token") as string) ?? "",
   );
