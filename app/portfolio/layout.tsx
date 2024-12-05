@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description:
     "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : React JS, Next.js, Prestashop, Wordpress, javascript, PHP, Symfony et autre",
   keywords:
-    "développeur web, développeur, full stack, e-commerce, backend, frontend, applications web, freelance, Saverne, Alsace,React JS, react, next, Next.js, javascript, PHP, Symfony, Prestashop",
+    "développeur web,developpeur web,développeur,développeur full stack,developpeur, développeur, full stack, e-commerce, backend, frontend, applications web, freelance, Saverne, Alsace,React JS, react, next, Next.js, javascript, PHP, Symfony, Prestashop",
   alternates: {
     canonical: "./",
   },
