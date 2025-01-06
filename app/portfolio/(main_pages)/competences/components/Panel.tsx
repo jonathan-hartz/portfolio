@@ -4,8 +4,9 @@ import ItemSkill from "./itemSkill";
 const getGridPositon = (position: string) => {
   switch (position) {
     case "topLeft":
+      return "col-span-full sm:col-span-2";
     case "topRight":
-      return "col-span-full sm:col-span-3";
+      return "col-span-full sm:col-span-4";
     case "bottomLeft":
     case "bottomCenter":
     case "bottomRight":
@@ -31,7 +32,7 @@ export default function Panel({
     <div
       className={`relative ${gridPosition} rounded-sm border-2 border-solid ${outlineColor} mb-2 bg-slate-500/15 sm:mb-0`}
     >
-      <div className="mb-10 mt-2 grid grid-cols-6 items-center justify-items-center gap-2 text-center sm:grid-cols-3 sm:gap-1 md:grid-cols-4">
+      <div className="mb-10 mt-2 grid grid-cols-4 items-center justify-items-center gap-2 text-center sm:gap-1">
         {skills &&
           skills.map((skill, key) => {
             return (

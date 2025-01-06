@@ -23,7 +23,7 @@ export default function PaginatedItems({
   };
   return (
     <>
-      <div className="grid grid-cols-1 justify-items-center gap-4 py-4 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 justify-items-center gap-4 py-4 sm:grid-cols-2 sm:justify-items-start md:grid-cols-3">
         <GridItems projects={currentItems} />
       </div>
       {pageCount > 1 && (

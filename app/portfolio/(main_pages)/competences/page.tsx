@@ -3,7 +3,7 @@ import skills from "@/app/portfolio/(main_pages)/competences/data/skills.json";
 export default async function Competences() {
   return (
     <>
-      <h1 className="bg-font-extrabold text-left text-xl text-white underline underline-offset-8 sm:mb-2 sm:pb-2 sm:text-3xl">
+      <h1 className="bg-font-extrabold mb-4 text-left text-xl text-white underline underline-offset-8 sm:text-3xl">
         Mes compétences
       </h1>
       <div className="m-auto mb-2 sm:grid sm:grid-cols-6 sm:gap-4">

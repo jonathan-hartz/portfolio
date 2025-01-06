@@ -37,7 +37,7 @@ export default function ContactForm() {
   }, []);
 
   return (
-    <div className="isolate mx-auto rounded-xl bg-indigo-900/95 px-6 py-2 shadow-2xl sm:py-12 lg:px-2">
+    <div className="isolate mx-auto rounded-xl bg-indigo-900/95 px-6 py-6 shadow-2xl sm:py-12 lg:px-2">
       <div className="mx-auto w-4/5">
         {state?.messages?.errors?.length ? (
           <ul className="mx-auto max-w-xl animate-bounce list-decimal border-2 border-dotted border-amber-500 bg-amber-500/45 py-4 pl-8 indent-4">

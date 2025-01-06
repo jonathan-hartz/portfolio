@@ -8,12 +8,20 @@
     "toColor": "to-blue-400"
   },
   {
-    "title": "Optimisation pour les moteurs de recherche (SEO)",
-    "description": "Amélioration de la visibilité en ligne par l'optimisation du site web pour les moteurs de recherche, augmentant ainsi le trafic et les conversions.",
-    "icon": "fa-solid fa-magnifying-glass-dollar",
-    "borderColor": "border-amber-400",
-    "fromColor": "from-amber-300",
-    "toColor": "to-amber-400"
+    "title": "Développement d'applications mobile",
+    "description": "Création d'applications mobile sur mesure disponible sur les stores de Google et Apple.",
+    "icon": "fa-solid fa-ruler-combined",
+    "borderColor": "border-purple-400",
+    "fromColor": "from-purple-300",
+    "toColor": "to-purple-400"
+  },
+  {
+    "title": "Développement d'applications web",
+    "description": "Création d'applications web performantes, améliorant l'expérience utilisateur et répondant à des besoins spécifiques.",
+    "icon": "fa-solid fa-code",
+    "borderColor": "border-fuchsia-400",
+    "fromColor": "from-fuchsia-300",
+    "toColor": "to-fuchsia-400"
   },
   {
     "title": "Développement de sites e-commerce",
@@ -22,6 +30,14 @@
     "borderColor": "border-teal-400",
     "fromColor": "from-teal-300",
     "toColor": "to-teal-400"
+  },
+  {
+    "title": "Optimisation pour les moteurs de recherche (SEO)",
+    "description": "Amélioration de la visibilité en ligne par l'optimisation du site web pour les moteurs de recherche, augmentant ainsi le trafic et les conversions.",
+    "icon": "fa-solid fa-magnifying-glass-dollar",
+    "borderColor": "border-amber-400",
+    "fromColor": "from-amber-300",
+    "toColor": "to-amber-400"
   },
   {
     "title": "Développement de module Prestashop",
@@ -38,22 +54,6 @@
     "borderColor": "border-indigo-400",
     "fromColor": "from-indigo-300",
     "toColor": "to-indigo-400"
-  },
-  {
-    "title": "Développement d'applications web",
-    "description": "Création d'applications web interactives et performantes, améliorant l'expérience utilisateur et répondant à des besoins spécifiques.",
-    "icon": "fa-solid fa-code",
-    "borderColor": "border-fuchsia-400",
-    "fromColor": "from-fuchsia-300",
-    "toColor": "to-fuchsia-400"
-  },
-  {
-    "title": "Développements internes",
-    "description": "Mise en place de solutions techniques internes, comme des scripts de sauvegarde ou de synchronisation, ainsi que des solutions sur mesure.",
-    "icon": "fa-solid fa-ruler-combined",
-    "borderColor": "border-purple-400",
-    "fromColor": "from-purple-300",
-    "toColor": "to-purple-400"
   },
   {
     "title": "Hébergement & Déploiement",

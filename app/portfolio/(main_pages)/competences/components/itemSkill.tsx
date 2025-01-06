@@ -17,7 +17,7 @@ export default function ItemSkill({
       >
         <i className={skill.icon}></i>
       </div>
-      <div className="text-xs">{skill.name}</div>
+      <div className="w-max text-xs">{skill.name}</div>
     </div>
   );
 }

@@ -1,126 +1,136 @@
 {
   "backend": [
     {
-      "_id": 1,
+      "_id": "410e1a10-c6b0-11ef-9515-325096b39f47",
       "name": "PHP",
       "icon": "fa-brands fa-php"
     },
     {
-      "_id": 2,
+      "_id": "410e1c68-c6b0-11ef-9732-325096b39f47",
       "name": "Symfony",
       "icon": "fa-brands fa-symfony"
     },
     {
-      "_id": 3,
-      "name": "Node",
+      "_id": "410e1ce0-c6b0-11ef-ab92-325096b39f47",
+      "name": "Node.js",
       "icon": "fa-brands fa-node"
     }
   ],
   "frontend": [
     {
-      "_id": 4,
-      "name": "React",
+      "_id": "410e1d30-c6b0-11ef-90cf-325096b39f47",
+      "name": "React Native",
       "icon": "fa-brands fa-react"
     },
     {
-      "_id": 5,
+      "_id": "410e1d80-c6b0-11ef-83af-325096b39f47",
+      "name": "React JS",
+      "icon": "fa-brands fa-react"
+    },
+    {
+      "_id": "410e1dc6-c6b0-11ef-9381-325096b39f47",
       "name": "Next.js",
       "icon": "icon-next"
     },
 
     {
-      "_id": 6,
+      "_id": "410e1e0c-c6b0-11ef-ad1b-325096b39f47",
       "name": "Tailwind",
       "icon": "icon-tailwind"
     },
     {
-      "_id": 7,
+      "_id": "410e1e52-c6b0-11ef-8751-325096b39f47",
       "name": "JS",
       "icon": "fa-brands fa-js"
     },
     {
-      "_id": 8,
+      "_id": "410e1e8e-c6b0-11ef-ad2c-325096b39f47",
       "name": "TS",
       "icon": "icon-ts"
     },
     {
-      "_id": 9,
+      "_id": "410e1ed4-c6b0-11ef-a9cd-325096b39f47",
       "name": "HTML 5",
       "icon": "fa-brands fa-html5"
     },
     {
-      "_id": 10,
+      "_id": "410e1f24-c6b0-11ef-9b24-325096b39f47",
       "name": "CSS 3 ",
       "icon": "fa-brands fa-css3-alt"
     },
     {
-      "_id": 11,
+      "_id": "410e1f7e-c6b0-11ef-acc5-325096b39f47",
       "name": "SASS",
       "icon": "fa-brands fa-sass"
     },
     {
-      "_id": 12,
+      "_id": "410e1fd8-c6b0-11ef-9e9b-325096b39f47",
       "name": "Bootstrap",
       "icon": "fa-brands fa-bootstrap"
     }
   ],
   "db_orm": [
     {
-      "_id": 13,
+      "_id": "410e2046-c6b0-11ef-a620-325096b39f47",
       "name": "MySQL",
       "icon": "icon-mysql"
     },
     {
-      "_id": 14,
+      "_id": "410e20aa-c6b0-11ef-a3b0-325096b39f47",
       "name": "MongoDB",
       "icon": "icon-mongodb"
     },
     {
-      "_id": 15,
+      "_id": "410e2104-c6b0-11ef-8f7d-325096b39f47",
       "name": "Prisma",
       "icon": "icon-prisma"
     }
   ],
   "cms": [
     {
-      "_id": 16,
+      "_id": "410e215e-c6b0-11ef-9060-325096b39f47",
       "name": "Prestashop",
       "icon": "icon-prestashop"
     },
     {
-      "_id": 17,
+      "_id": "392b291o-c6b0-11ef-9060-325096b39f47",
+      "name": "WooCommerce",
+      "icon": "icon-woocommerce"
+    },
+    {
+      "_id": "410e21c2-c6b0-11ef-99be-325096b39f47",
       "name": "Wordpress",
       "icon": "fa-brands fa-wordpress"
     }
   ],
   "other": [
     {
-      "_id": 18,
+      "_id": "410e221c-c6b0-11ef-8412-325096b39f47",
       "name": "Atlassian",
       "icon": "fa-brands fa-atlassian"
     },
     {
-      "_id": 19,
+      "_id": "410e2276-c6b0-11ef-bbe0-325096b39f47",
       "name": "Jira",
       "icon": "fa-brands fa-jira"
     },
     {
-      "_id": 20,
+      "_id": "410e22d0-c6b0-11ef-9f46-325096b39f47",
       "name": "Git",
       "icon": "fa-brands fa-git"
     },
     {
-      "_id": 21,
+      "_id": "410e232a-c6b0-11ef-a9fa-325096b39f47",
       "name": "Debian",
       "icon": "fa-brands fa-debian"
     },
     {
-      "_id": 22,
+      "_id": "410e238e-c6b0-11ef-aa8d-325096b39f47",
       "name": "Confluence",
       "icon": "fa-brands fa-confluence"
     },
     {
-      "_id": 23,
+      "_id": "410e23e8-c6b0-11ef-8a69-325096b39f47",
       "name": "Bitbucket",
       "icon": "fa-brands fa-bitbucket"
     }

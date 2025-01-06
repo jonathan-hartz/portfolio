@@ -31,6 +31,10 @@
   content: "\e808";
   font-style: normal;
 }
+.icon-woocommerce:before {
+  content: "\E80D";
+  font-style: normal;
+}
 /* width */
 ::-webkit-scrollbar {
   @apply w-2 rounded-lg bg-indigo-500;
