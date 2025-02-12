@@ -2,16 +2,21 @@
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { isPreviousPageBeforeCurrentPage } from "@/app/portfolio/components/navigation/MenuEntries";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const getVariants = (
   isTheScrollBottomToTop: boolean,
   isANewNavigation: boolean,
+  isTheSamePage: boolean,
 ) => {
   const variants = {
     initial: {},
     animate: {},
     exit: {},
   };
+  if (isTheSamePage) return variants;
   if (!isANewNavigation) {
     variants.initial = {
       y: isTheScrollBottomToTop ? 1500 : -1500,
@@ -29,6 +34,31 @@ export default function Transition({
   children: React.ReactNode;
 }) {
   const current_page_pathname = usePathname();
+
+  useEffect(() => {
+    document
+      .querySelectorAll(".aos-animate")
+      .forEach((element) => element.classList.remove("aos-animate"));
+
+    setTimeout(
+      () => {
+        AOS.init({
+          duration: 400, // Global animation duration
+          easing: "ease-in-out-quart",
+          offset: 0,
+          once: false,
+          disable: () => {
+            return (
+              current_page_pathname != "/portfolio" && window.innerWidth < 768
+            );
+          },
+        });
+      },
+      current_page_pathname != "/portfolio" && window.innerWidth < 768
+        ? 0
+        : 400,
+    );
+  }, [current_page_pathname]);
   let isTheScrollBottomToTop = false;
   let isANewNavigation = true;
   let previous_page_pathname = null;
@@ -45,11 +75,16 @@ export default function Transition({
       previous_page_pathname,
     );
   }
-  const variants = getVariants(isTheScrollBottomToTop, isANewNavigation);
+  const variants = getVariants(
+    isTheScrollBottomToTop,
+    isANewNavigation,
+    previous_page_pathname == current_page_pathname,
+  );
 
   return (
     <>
       <motion.div
+        onViewportEnter={() => {}}
         initial={variants.initial}
         animate={variants.animate}
         exit={variants.exit}

@@ -106,13 +106,13 @@
   "other": [
     {
       "_id": "410e221c-c6b0-11ef-8412-325096b39f47",
-      "name": "Atlassian",
-      "icon": "fa-brands fa-atlassian"
+      "name": "Express",
+      "icon": "fa-brands fa-js"
     },
     {
       "_id": "410e2276-c6b0-11ef-bbe0-325096b39f47",
-      "name": "Jira",
-      "icon": "fa-brands fa-jira"
+      "name": "Apache",
+      "icon": "fa-solid fa-feather "
     },
     {
       "_id": "410e22d0-c6b0-11ef-9f46-325096b39f47",

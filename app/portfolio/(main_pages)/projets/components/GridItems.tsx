@@ -6,7 +6,7 @@ export default function GridItems({ projects }: { projects: Array<Project> }) {
     <>
       {projects &&
         projects.map((project, key) => (
-          <GridItem key={key} project={project} />
+          <GridItem key={key} project={project} index={key} />
         ))}
     </>
   );

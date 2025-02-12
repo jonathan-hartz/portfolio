@@ -1,10 +1,18 @@
+"use client";
+
 import Link from "next/link";
 import Portrait from "./Portrait";
 
 export default function PanelLeft() {
   return (
-    <div className="m-auto h-full w-4/5 flex-col justify-around rounded-lg p-4 text-center md:flex md:bg-slate-800/40">
-      <span className="mb-2 flex justify-center md:hidden">
+    <div
+      className="m-auto h-full w-4/5 flex-col justify-around rounded-lg p-4 text-center md:flex md:bg-slate-800/40"
+      data-aos={"slide-up"}
+    >
+      <span
+        className="mb-2 flex justify-center md:hidden"
+        data-aos={"flip-left"}
+      >
         <Portrait />
       </span>
 

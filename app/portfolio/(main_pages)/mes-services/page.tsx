@@ -11,7 +11,7 @@ export default function MesServices() {
 
       <div className="grid w-full grid-rows-1 items-center justify-center justify-items-center gap-8 bg-black/20 p-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {services.map((service, key) => {
-          return <Card key={key} service={service} />;
+          return <Card key={key} service={service} index={key} />;
         })}
       </div>
     </>
