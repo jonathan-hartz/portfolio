@@ -14,6 +14,17 @@ export async function redirects() {
       destination: "/portfolio",
       permanent: true,
     },
+    {
+      source: "/:path*", // Catch all paths
+      has: [
+        {
+          type: "host",
+          value: "www.jonathan-hartz.dev",
+        },
+      ],
+      destination: "https://jonathan-hartz.dev/:path*",
+      permanent: true,
+    },
   ];
 }
 
