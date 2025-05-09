@@ -18,7 +18,7 @@ export default function GridItem({
   return (
     <div
       onClick={handleClick}
-      className="group relative h-36 w-full cursor-pointer rounded-md border-2 border-solid border-blue-700 bg-blue-900 p-2 transition-transform hover:scale-105 lg:h-56 lg:w-72 2xl:h-64 2xl:w-80"
+      className="group relative h-36 w-full cursor-pointer rounded-md border-2 border-solid border-blue-700 bg-blue-900 p-2 transition-transform hover:scale-105 lg:h-48 lg:w-72 2xl:h-64 2xl:w-80"
       data-aos="flip-left"
       data-aos-delay={200 * index}
     >
@@ -28,17 +28,19 @@ export default function GridItem({
         </div>
       </div>
       <div
-        className={`${backgroundColor} relative m-auto h-full w-full text-center`}
+        className={`${backgroundColor} relative m-auto flex h-full w-full items-center justify-center`}
       >
         <Image
           src={`/projects/${project.imagePath}`}
           alt="Portfolio"
           fill
+          sizes="256px"
           priority
           quality={100}
           unoptimized={true}
           style={{
-            objectFit: "cover",
+            objectFit: "contain",
+            objectPosition: "top",
           }}
         />
       </div>

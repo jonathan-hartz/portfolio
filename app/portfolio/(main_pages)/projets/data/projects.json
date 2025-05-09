@@ -1,6 +1,120 @@
 [
   {
+    "_id": 6,
+    "date": "2025-05-01",
+    "slug": "plateformateurs",
+    "hook": "La plateforme idéale pour connecter formateurs et entreprises",
+    "title": "Plateformateurs : Une plateforme SAAS de mise en relation",
+    "imagePath": "plateformateurs.png",
+    "subtitle": "Une solution pour simplifier la mise en relation entre formateurs et entreprises",
+    "ready": true,
+    "public": true,
+    "categories": [
+      {
+        "title": "site web sur mesure",
+        "color": "from-blue-600 to-blue-700 text-slate-200"
+      },
+      {
+        "title": "plateforme saas",
+        "color": "from-fuchsia-600 to-fuchsia-700 text-slate-200"
+      }
+    ],
+    "technologies_used": ["next", "react", "tailwind", "stripe"],
+    "description": "Plateformateurs est une solution innovante qui facilite la mise en relation entre formateurs indépendants et entreprises à la recherche de compétences. Avec un système d'abonnement flexible, chaque utilisateur peut bénéficier d'outils optimisés pour répondre à ses besoins en formation.",
+    "features": [
+      {
+        "title": "Accès facilité aux missions",
+        "description": "Les formateurs peuvent consulter les offres disponibles et être contactés directement par des entreprises, optimisant ainsi leurs opportunités de collaboration.",
+        "icon": "fa-solid fa-briefcase"
+      },
+      {
+        "title": "Abonnements flexibles",
+        "description": "Que vous soyez formateur ou organisme de formation, plusieurs plans sont disponibles pour maximiser votre visibilité et vos opportunités.",
+        "icon": "fa-solid fa-users"
+      },
+      {
+        "title": "Interface intuitive",
+        "description": "Une plateforme moderne et ergonomique qui permet aux utilisateurs de configurer leurs compétences, disponibilités et préférences de mobilité en toute simplicité.",
+        "icon": "fa-solid fa-desktop"
+      },
+      {
+        "title": "Paiement sécurisé",
+        "description": "L'intégration avec Stripe garantit une gestion fluide et sécurisée des transactions financières liées aux abonnements et prestations.",
+        "icon": "fa-solid fa-lock"
+      },
+      {
+        "title": "Visibilité accrue pour les professionnels",
+        "description": "Les entreprises ont un accès total aux profils des formateurs premium et peuvent envoyer des offres de mission directement via la plateforme.",
+        "icon": "fa-solid fa-eye"
+      }
+    ],
+    "conclusion": "Plateformateurs simplifie la recherche et la mise en relation dans le domaine de la formation, offrant aux formateurs et aux entreprises une solution efficace et flexible pour répondre à leurs besoins.",
+    "github_link": "https://github.com/jonathan-hartz/trainers-platform",
+    "project_link": "https://plateformateurs.jonathan-hartz.dev/"
+  },
+  {
+    "_id": 5,
+    "date": "2025-04-01",
+    "slug": "bodywellness",
+    "hook": "Un site de réservation de soins bien-être fait sous Wordpress",
+    "title": "Site vitrine d'un institut de beauté",
+    "imagePath": "bodywellness.png",
+    "subtitle": "Un site vitrine intuitif et optimisé pour le bien-être",
+    "ready": true,
+    "public": true,
+    "categories": [
+      {
+        "title": "site wordpress",
+        "color": "from-rose-600 to-rose-700 text-slate-200"
+      }
+    ],
+    "technologies_used": ["wordpress"],
+    "description": "Body Wellness 68 est un site vitrine conçu pour offrir une expérience fluide et intuitive aux visiteurs souhaitant découvrir et réserver des soins bien-être. Grâce à WordPress, j'ai mis en place une structure optimisée pour le référencement (Rank Math SEO), un blog dynamique et un maillage interne efficace. Mon expertise dans la personnalisation des contenus et l'optimisation locale permet à l'institut de gagner en visibilité et en engagement client. Ce projet illustre mes connaissances en gestion de CMS et en amélioration de l'expérience utilisateur.",
+    "features": [
+      {
+        "title": "Présentation détaillée des soins",
+        "description": "Chaque type de massage est expliqué en profondeur, avec ses bienfaits et indications pour aider les visiteurs à choisir le soin le plus adapté.",
+        "icon": "fa-solid fa-spa"
+      },
+      {
+        "title": "Optimisation locale",
+        "description": "Un référencement géolocalisé ciblé sur Bollwiller et les environs pour capter une clientèle locale en quête de bien-être.",
+        "icon": "fa-solid fa-map-marker-alt"
+      },
+      {
+        "title": "Référencement SEO optimisé",
+        "description": "Grâce à une structuration efficace et à l’optimisation des contenus avec Rank Math, le site bénéficie d’une meilleure visibilité sur Google.",
+        "icon": "fa-brands fa-searchengin"
+      },
+      {
+        "title": "Blog bien-être",
+        "description": "Un espace dédié aux conseils bien-être, à l’explication des différentes techniques de massage et à la présentation des partenaires spécialisés.",
+        "icon": "fa-solid fa-newspaper"
+      },
+      {
+        "title": "Maillage interne efficace",
+        "description": "Les pages du site sont interconnectées de manière fluide, permettant aux visiteurs d'explorer facilement les différents soins et articles de blog.",
+        "icon": "fa-solid fa-link"
+      },
+      {
+        "title": "Navigation intuitive",
+        "description": "Une expérience utilisateur fluide, avec un menu clair et un accès rapide aux différentes sections du site pour faciliter la découverte des soins.",
+        "icon": "fa-solid fa-hand-pointer"
+      },
+      {
+        "title": "Gestion simplifiée des articles",
+        "description": "L’interface du blog permet une gestion facile des contenus par l’administrateur, avec des fonctionnalités pratiques comme la duplication d’articles.",
+        "icon": "fa-solid fa-pencil-alt"
+      }
+    ],
+    "conclusion": "La conception de ce site m'a permis de bien cerner les avantages et inconvénients de WordPress, ainsi que les meilleures pratiques pour optimiser un site vitrine. J'ai également pu mettre en avant mes compétences en SEO et en gestion de contenu, tout en offrant une expérience utilisateur agréable et fluide. ",
+    "github_link": "",
+    "project_link": "https://body-wellness-68.fr/"
+  },
+
+  {
     "_id": 1,
+    "date": "2024-10-01",
     "slug": "portfolio",
     "hook": "Un outil pour me présenter",
     "title": "Mon portfolio",
@@ -14,7 +128,7 @@
         "color": "from-blue-600 to-blue-700 text-slate-200"
       }
     ],
-    "technologies_used": ["icon-next", "fa-brands fa-react", "icon-tailwind"],
+    "technologies_used": ["next", "react", "tailwind"],
     "description": "Un projet passionnant, et nécessaire pour vous présenter mes services, compétences et mes réalisations, et pour lequel j'ai pris beaucoup de plaisir à écrire son code. Grâce à ce portfolio, j'ai pu considérablement m'améliorer dans l'apprentissage de React, Next.js et Tailwind, et cela après plusieurs mois de formations dans ces langages.",
     "features": [
       {
@@ -49,10 +163,12 @@
       }
     ],
     "conclusion": "En terminant le développement de ce portfolio, je me sens clairement capable de vous livrer une solution complète et clé en main tirant parti de technologies très populaires et de plus en plus répandues.",
-    "github_link": "https://github.com/jonathan-hartz/portfolio"
+    "github_link": "https://github.com/jonathan-hartz/portfolio",
+    "project_link": "https://jonathan-hartz.dev/portfolio/"
   },
   {
     "_id": 2,
+    "date": "2024-04-16",
     "slug": "john-steel",
     "hook": "Le spécialiste de la découpe sur mesure",
     "title": "Site e-commerce de John Steel",
@@ -67,19 +183,19 @@
       }
     ],
     "technologies_used": [
-      "icon-prestashop",
-      "icon-mysql",
-      "icon-mongodb",
-      "fa-brands fa-php",
-      "fa-brands fa-symfony",
-      "fa-brands fa-node",
-      "fa-brands fa-js",
-      "fa-brands fa-html5",
-      "fa-brands fa-css3-alt",
-      "fa-brands fa-sass",
-      "fa-brands fa-bootstrap",
-      "fa-brands fa-wordpress"
+      "prestashop",
+      "php",
+      "symfony",
+      "wordpress",
+      "mysql",
+      "mongodb",
+      "js",
+      "html",
+      "css",
+      "sass",
+      "bootstrap"
     ],
+
     "description": "Cette boutique en ligne - spécialisée dans la découpe sur mesure de pièces de métal et de bois - dispose de nombreuses fonctionnalités développée sur mesure, et m'a permis de gagner la maîtrise de Prestashop. En effet, j'ai du à de nombreuses reprises explorer les entrailles de ce CMS qui possède une forte réputation à l'internationale !\n\n De nombreuses fonctionnalités sur mesure ont été faites pour ce site : système de configuration de produit, \"Landing Pages\" administrables facilement en back-office, étape de checkout supplémentaire pour gérer les délais de commande, prix dynamique ... ",
     "features": [
       {
@@ -115,10 +231,12 @@
       }
     ],
     "conclusion": "Les différents points évoqués ne représentent qu'une synthèse assez brève des travaux que j'ai pu effectuer sur ce site e-commerce. \n\n [Ce projet reste privé, et n'est pas ma propriété : il appartient à la société John Steel, dont j'ai été développeur pendant de nombreuses années.]",
-    "github_link": ""
+    "github_link": "",
+    "project_link": "https://www.john-steel.com/fr/"
   },
   {
     "_id": 3,
+    "date": "2024-04-16",
     "slug": "module-prix-sur-mesure",
     "hook": "Un système pour ajuster finement son prix de vente sur Prestashop",
     "title": "Module de gestion de prix sur mesure",
@@ -133,12 +251,12 @@
       }
     ],
     "technologies_used": [
-      "icon-prestashop",
-      "icon-mysql",
-      "fa-brands fa-php",
-      "fa-brands fa-symfony",
-      "fa-brands fa-js",
-      "fa-brands fa-bootstrap"
+      "prestashop",
+      "mysql",
+      "php",
+      "symfony",
+      "js",
+      "bootstrap"
     ],
 
     "description": "Fixer des prix en fonction du contexte d'un panier utilisateur peut parfois s'avérer compliqué dans Prestashop. C'est pourquoi j'ai développé un module innovant permettant de gérer finement les coûts des produits et de calculer leur prix de vente final grâce à un système de composantes de coût. Ce système a été perfectionné au point de permettre la définition de sous-composantes au sein des composantes principales. \n\n Par exemple, il est possible de définir une composante de coût au m³ d'un produit, en prenant en compte son coût au m³ (une sous-composante) que l'on peut multiplier par la taille de la pièce (une autre sous-composante). Toutes ces composantes peuvent être créées à partir d'un calcul simple (une formule mathématique basique) ou basées sur des données plus complexes à obtenir (un script PHP peut générer une composante, ou les données peuvent être récupérées depuis un tableau de données). \n\n Ce module ne se limite pas à la définition de formules de prix de vente pour des pièces personnalisées. Il inclut également des fonctionnalités supplémentaires intéressantes, comme un onglet de suivi des commandes passées, permettant de visualiser le coût de fabrication d'un produit et le prix de vente facturé au client",
@@ -170,10 +288,12 @@
       }
     ],
     "conclusion": "En développant ce module de gestion des prix, j'ai pu relever des défis techniques complexes et proposer des solutions innovantes pour optimiser la gestion des coûts et des prix dans Prestashop. Chaque fonctionnalité a été pensée pour apporter une réelle valeur ajoutée, tant pour l'utilisateur final que pour les administrateurs de la boutique. \n\nSi ce projet a retenu votre attention et que vous souhaitez en savoir plus sur son développement, son intégration ou ses applications possibles, n'hésitez pas à me contacter. ",
-    "github_link": ""
+    "github_link": "",
+    "project_link": "https://www.john-steel.com/fr/"
   },
   {
     "_id": 4,
+    "date": "2024-04-16",
     "slug": "interface-suivi-expeditions",
     "hook": "Suivre ses commandes Prestashop, et les expédier simplement",
     "title": "Interface de suivi des expéditions",
@@ -187,13 +307,7 @@
         "color": "from-fuchsia-600 to-fuchsia-700 text-slate-200"
       }
     ],
-    "technologies_used": [
-      "icon-prestashop",
-      "fa-brands fa-php",
-      "fa-brands fa-js",
-      "fa-brands fa-html5",
-      "fa-brands fa-css3-alt"
-    ],
+    "technologies_used": ["prestashop", "php", "js", "html", "css"],
     "description": "Dans un environnement industriel où l'efficacité et la productivité sont essentielles, il est indispensable de disposer d'un outil adapté à ces exigences. C'est pourquoi j'ai développé cette application, qui permet de récupérer facilement les commandes passées sur un site Prestashop et de les traiter efficacement, sans les complexités du back-office de ce CMS. \n\n En outre, de nombreuses interfaces avec des transporteurs (tels que DPD, GEODIS ou DHL) ont été intégrées pour l'édition d'étiquettes de transport, une fonctionnalité non incluse par défaut dans Prestashop.",
     "features": [
       {
@@ -228,6 +342,7 @@
       }
     ],
     "conclusion": "Ce projet m'a été très satisfaisant, me permettant de découvrir le monde des API et de résoudre des problématiques d'usine. Travailler sur ce projet a été enrichissant, car j'ai pu améliorer les performances d'une équipe et acquérir une grande confiance en mes compétences, ce qui est toujours bénéfique 😉",
-    "github_link": ""
+    "github_link": "",
+    "project_link": "https://www.john-steel.com/fr/"
   }
 ]

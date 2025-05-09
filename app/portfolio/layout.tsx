@@ -19,11 +19,12 @@ const custom_font = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jonathan-hartz.dev"),
-  title: "Jonathan Hartz - Développeur Web Freelance - Saverne, Alsace",
+  title:
+    "Jonathan Hartz | Développeur Web Freelance | Création de site internet - Saverne, Alsace",
   description:
-    "Site Portfolio de Jonathan Hartz, développeur web freelance spécialisé dans de nombreuses technologies : React JS, Next.js, Prestashop, Wordpress, javascript, PHP, Symfony et autre",
+    "Développeur web freelance au Val-de-Moder, Alsace. Création de sites internet, d'applications web et de site vitrines et e-commerce optimisés SEO.",
   keywords:
-    "développeur web, développeur full stack, e-commerce, création site web, applications web, freelance, Saverne, Alsace, React, Next.js, PHP, Symfony, Prestashop",
+    "création site internet, site web professionnel, e-commerce, optimisation SEO, refonte site web, application web, site sur mesure, développeur web freelance Alsace, site vitrine, site rapide et sécurisé, référencement Google, consultant digital, Val-de-Moder, Alsace, prestation web sur-mesure",
   alternates: {
     canonical: "./",
   },

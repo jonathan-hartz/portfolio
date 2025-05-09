@@ -16,20 +16,19 @@ export default function PanelLeft() {
         <Portrait />
       </span>
 
-      <span className="text-xl lg:text-3xl">
-        <h1 className="mb-4 font-extrabold leading-tight text-white">
-          Bienvenue sur mon portfolio, je suis&nbsp;
-          <span className="text-yellow-400">JONATHAN HARTZ</span>
+      <span className="text-xl font-extrabold leading-tight lg:text-3xl">
+        <h1 className="mb-4 text-white">
+          <div className="text-yellow-400">JONATHAN HARTZ</div>
         </h1>
-        <p className="mb-2 self-center font-normal text-white lg:mb-4">
-          Développeur web freelance à votre service 😊
-        </p>
+        <h2>Développeur web freelance basé au Val-de-Moder, Alsace.</h2>
       </span>
+      <hr className="my-4 hidden md:block" />
       <div className="hidden text-justify text-base md:block">
         <p className="mb-8">
-          Je suis content de vous présenter un peu de ma vie professionelle !
-          Vous trouverez sur ce site mes réalisations, compétences et tout ce
-          qui peut vous intéresser chez moi.
+          Besoin d’un site web performant et professionnel ? J&apos;aide
+          entreprises et indépendants à créer des sites web modernes, optimisés
+          et adaptés à leurs besoins. Découvrez mes réalisations et
+          contactez-moi pour concrétiser votre projet digital.
         </p>
         <p>
           N&#39;hésitez pas à{" "}
