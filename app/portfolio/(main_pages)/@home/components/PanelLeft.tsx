@@ -25,10 +25,10 @@ export default function PanelLeft() {
       <hr className="my-4 hidden md:block" />
       <div className="hidden text-justify text-base md:block">
         <p className="mb-8">
-          Besoin d’un site web performant et professionnel ? J&apos;aide
-          entreprises et indépendants à créer des sites web modernes, optimisés
-          et adaptés à leurs besoins. Découvrez mes réalisations et
-          contactez-moi pour concrétiser votre projet digital.
+          Besoin d&apos;un site web performant et professionnel ? J&apos;aide
+          entreprises et indépendants dans leur projet de création de sites web,
+          optimisés et adaptés à leurs besoins. Découvrez mes applications et
+          contactez-moi pour concrétiser votre projet.
         </p>
         <p>
           N&#39;hésitez pas à{" "}
