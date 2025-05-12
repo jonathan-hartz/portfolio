@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "portfolio/a-propos",
     "portfolio/competences",
     "portfolio/projets",
+    "portfolio/mes-services",
     "portfolio/me-contacter",
   ].map((route) => ({
     url: `${baseUrl}${route}`,
@@ -19,7 +20,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: route === "" ? 1 : 0.8,
   }));
-
   // Project pages
   const projectPages = projects
     .filter((project) => project.ready) // Only include ready projects
