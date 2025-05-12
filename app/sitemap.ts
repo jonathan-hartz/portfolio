@@ -1,15 +1,17 @@
 import { MetadataRoute } from "next";
 import projects from "./portfolio/(main_pages)/projets/data/projects.json";
+import { revalidatePath } from "next/cache";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  revalidatePath("/sitemap.xml");
+
   // Your website URL
-  const baseUrl = new URL("https://jonathan-hartz.dev");
+  const baseUrl = new URL("https://jonathan-hartz.dev/");
 
   // Base pages
   const routes = [
     "",
     "portfolio",
-    "portfolio/a-propos",
     "portfolio/competences",
     "portfolio/projets",
     "portfolio/mes-services",
