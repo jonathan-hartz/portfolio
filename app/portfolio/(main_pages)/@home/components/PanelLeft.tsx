@@ -20,7 +20,7 @@ export default function PanelLeft() {
         <h1 className="mb-4 text-white">
           <div className="text-yellow-400">JONATHAN HARTZ</div>
         </h1>
-        <h2>Développeur web freelance basé au Val-de-Moder, Alsace.</h2>
+        <h2>Développeur web basé dans le Bas-Rhin, en Alsace.</h2>
       </span>
       <hr className="my-4 hidden md:block" />
       <div className="hidden text-justify text-base md:block">

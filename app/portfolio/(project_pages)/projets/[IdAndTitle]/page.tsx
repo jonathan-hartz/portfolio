@@ -121,7 +121,7 @@ export default async function Page({
                           rel="noopener noreferrer"
                         >
                           <span className="relative flex items-center gap-2 rounded-md bg-slate-800/80 px-4 py-2 transition-all duration-300 ease-out group-hover:bg-opacity-0">
-                            <span>Visiter le projet</span>
+                            <span>Consulter ce projet</span>
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-4 w-4"

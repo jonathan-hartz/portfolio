@@ -1,5 +1,83 @@
 [
   {
+    "_id": 7,
+    "date": "2025-09-01",
+    "slug": "starmup",
+    "hook": "Projet SAAS d'envergure, qui met en relation influenceurs et followers",
+    "title": "Starmup : La plateforme pour les influenceurs",
+    "imagePath": "starmup.png",
+    "subtitle": "Une solution ambitieuse pour connecter les influenceurs et leurs abonnés",
+    "ready": true,
+    "public": true,
+    "categories": [
+      {
+        "title": "site web sur mesure",
+        "color": "from-blue-600 to-blue-700 text-slate-200"
+      },
+      {
+        "title": "plateforme saas",
+        "color": "from-fuchsia-600 to-fuchsia-700 text-slate-200"
+      }
+    ],
+    "technologies_used": ["next", "react", "tailwind", "stripe", "firebase"],
+    "description": "Starmup est une plateforme SAAS ambitieuse qui permet aux influenceurs (appelés Créateurs) de monétiser leur temps et leur expertise auprès de leurs abonnés (Fans). Grâce à un système de StarCoins, les fans peuvent réserver des appels audio/vidéo, envoyer des messages ou des cadeaux, et souscrire à des abonnements pour bénéficier d’avantages exclusifs. \r\n\r\nLe projet repose sur une architecture moderne et sécurisée, avec une gestion fine des rôles utilisateurs (Guest, Fan, Créateur, Admin), une logique d’abonnement double (Fans et Créateurs), un système de crédits virtuels, et une interface de réservation fluide. Stripe Connect assure la gestion des paiements et des retraits, tandis que Firebase gère l’authentification et les notifications.",
+    "features": [
+      {
+        "title": "Système de crédits StarCoins",
+        "description": "Achat de packs de crédits virtuels avec bonus de fidélité. Les StarCoins permettent de payer les appels, d'envoyer des messages et des cadeaux aux créateurs. Système économique interne complet.",
+        "icon": "fa-solid fa-coins"
+      },
+      {
+        "title": "Abonnements personnalisés",
+        "description": "Plans d'abonnement distincts pour les Fans et les Créateurs avec des avantages exclusifs. Réduction de commissions, accès privilégié et fonctionnalités premium selon le niveau d'abonnement.",
+        "icon": "fa-solid fa-crown"
+      },
+      {
+        "title": "Réservation d'appels",
+        "description": "Planning dynamique pour réserver des appels audio/vidéo avec les créateurs. Paiement sécurisé en StarCoins, système de notifications automatiques et suivi complet des réservations.",
+        "icon": "fa-solid fa-phone"
+      },
+      {
+        "title": "Messagerie & cadeaux",
+        "description": "Chat intégré permettant aux fans d'interagir directement avec leurs créateurs préférés. Possibilité d'envoyer des cadeaux virtuels payés en StarCoins pour renforcer l'engagement.",
+        "icon": "fa-solid fa-gift"
+      },
+      {
+        "title": "Identification avec KYC (Know Your Customer)",
+        "description": "Intégration d'un processus KYC pour vérifier l'identité des Créateurs et garantir la conformité réglementaire. Utilisation de services tiers pour la collecte et la validation des documents d'identité.",
+        "icon": "fa-solid fa-id-card"
+      },
+      {
+        "title": "Gestion des rôles",
+        "description": "Quatre rôles distincts avec des permissions spécifiques : Guest (visiteur), Fan (abonné), Créateur (influenceur) et Admin (administrateur). Chaque rôle dispose d'accès et de fonctionnalités adaptés à ses besoins.",
+        "icon": "fa-solid fa-users-gear"
+      },
+      {
+        "title": "Dashboard Créateur",
+        "description": "Interface complète pour les créateurs : statistiques détaillées, suivi des revenus, gestion des abonnés. Outils de visibilité avec génération de QR codes et liens de partage personnalisés.",
+        "icon": "fa-solid fa-chart-line"
+      },
+      {
+        "title": "Retrait des gains",
+        "description": "Système de conversion des StarCoins en euros via Stripe Connect. Gestion automatisée des retraits selon le type de revenu (appels, messages, cadeaux, abonnements) avec traçabilité complète.",
+        "icon": "fa-solid fa-money-bill-transfer"
+      },
+      {
+        "title": "Support & FAQ",
+        "description": "Système de tickets de support intégré avec suivi des demandes. FAQ dynamique et interactive avec filtrage par statut et catégories pour une résolution rapide des problèmes.",
+        "icon": "fa-solid fa-headset"
+      },
+      {
+        "title": "Back-office Admin",
+        "description": "Interface d'administration complète : monitoring global de la plateforme, gestion des utilisateurs, supervision des réservations, traitement des remboursements et analyse des performances.",
+        "icon": "fa-solid fa-shield-halved"
+      }
+    ],
+    "conclusion": "La création de Starmup a été un défi technique et organisationnel majeur, nécessitant une planification rigoureuse et une exécution précise. Ce projet m'a permis de renforcer mes compétences en développement web, en architecture logicielle et en gestion de projets complexes. \r\n\r\n J'ai pu découvrir un tout autre aspect de Stripe, que j'utilisais d'une façon assez basique jusqu'à avant ce projet. Pour Starmup, j'ai pu découvrir d'autres aspects, telles que l'intégration des paiements récurrents avec transfert de fonds entre compte principal Marchand et sous-compte Connect. \r\n\r\n Je suis fier du résultat obtenu, qui offre une expérience utilisateur fluide et sécurisée, tout en répondant aux besoins spécifiques des influenceurs et de leurs abonnés. Starmup est une plateforme innovante qui ouvre de nouvelles opportunités pour la monétisation du contenu et l'interaction entre créateurs et fans.",
+    "github_link": "",
+    "project_link": "https://starmup.com/"
+  },
+  {
     "_id": 6,
     "date": "2025-05-01",
     "slug": "plateformateurs",

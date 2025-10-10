@@ -20,11 +20,11 @@ const custom_font = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL("https://jonathan-hartz.dev"),
   title:
-    "Jonathan Hartz | Développeur Web | Création de site internet - Val-de-Moder",
+    "Jonathan Hartz | Développeur Web | Création de site internet - Bas-Rhin, Alsace",
   description:
-    "Développeur web freelance au Val-de-Moder, Alsace. Création de sites web, d'applications web et de site vitrines et e-commerce optimisés SEO.",
+    "Développeur web situé dans le Bas-Rhin, Alsace. Création de sites web, d'applications web et de site vitrines et e-commerce optimisés SEO.",
   keywords:
-    "création site web, création site internet, site web professionnel, e-commerce, optimisation SEO, refonte site web, application web, site sur mesure, développeur web freelance Alsace, site vitrine, site rapide et sécurisé, référencement Google, consultant digital, Val-de-Moder, Alsace, prestation web sur-mesure",
+    "création site web, création site internet, site web professionnel, e-commerce, optimisation SEO, refonte site web, application web, site sur mesure, développeur web freelance Alsace, site vitrine, site rapide et sécurisé, référencement Google, consultant digital, Bas-Rhin, Alsace, prestation web sur-mesure",
   alternates: {
     canonical: "./",
   },

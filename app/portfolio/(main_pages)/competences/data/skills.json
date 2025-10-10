@@ -120,6 +120,18 @@
     "category": "db_orm"
   },
   {
+    "id": "firestore",
+    "name": "Firestore",
+    "icon": "fa-fire fa-solid",
+    "category": "db_orm"
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "icon": "fa-fire fa-solid",
+    "category": "other"
+  },
+  {
     "id": "express",
     "name": "Express",
     "icon": "fa-brands fa-js",
